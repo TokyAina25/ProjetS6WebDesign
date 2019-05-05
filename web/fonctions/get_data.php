@@ -1,10 +1,10 @@
 <?php
 
     function getConnection(){
-        $servername = "localhost";
-        $username = "id9514124_webdesign";
-        $password = "321Tkn@123";
-        $dbname = "id9514124_webdesign";
+        $servername = "sql7.freemysqlhosting.net:3306";
+        $username = "sql7290683";
+        $password = "JjrX6qeGsB";
+        $dbname = "sql7290683";
         $con = null;
         try{
             $con = new mysqli($servername, $username, $password, $dbname);

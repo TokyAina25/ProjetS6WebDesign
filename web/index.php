@@ -1,3 +1,8 @@
+<?php
+    include ('fonctions/get_data.php');
+    $con = getConnection();
+    var_dump($con);
+?>
 <!doctype html>
 <html lang="en">
     <head>

@@ -8,7 +8,7 @@
         $con = null;
         try{
             $con = new mysqli($servername, $username, $password, $dbname);
-            if ($conn->connect_error) {
+            if ($con->connect_error) {
                 die("Connection failed: " . $conn->connect_error);
             }
         }catch(Exception $e){

@@ -3,7 +3,7 @@
     function getConnection(){
         $servername = "localhost";
         $username = "id9514124_webdesign";
-        $password = "321Tkn@123";
+        $password = "321Tkn@12";
         $dbname = "id9514124_webdesign";
         $con = null;
         try{

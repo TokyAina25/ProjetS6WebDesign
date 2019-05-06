@@ -15,7 +15,7 @@
 						<div class="col-lg-4">
 							<div class="home_right_box">
 								<div class="home_item">
-									<a href="?pages=produits&idCategorie=1&nomCategorie=Salon"  ><i title="Salon" class="flaticon-sofa"></i></a>
+									<a href="produits-1-Salon.html"  ><i title="Salon" class="flaticon-sofa"></i></a>
 								</div>
 								<div class="home_item">
 								<a href="?pages=produits&idCategorie=2&nomCategorie=Chambre"  ><i title="Chambre" class="flaticon-bed"></i></a>

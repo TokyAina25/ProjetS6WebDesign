@@ -3,3 +3,6 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule (.*) index.php/$1
+
+RewriteEngine On
+RewriteRule ^([^-]*)-([^-]*)-([^-]*)\.html$ /?pages=$1&idCategorie=$2&nomCategorie=$3 [L]

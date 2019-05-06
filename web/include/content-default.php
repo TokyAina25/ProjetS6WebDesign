@@ -15,22 +15,22 @@
 						<div class="col-lg-4">
 							<div class="home_right_box">
 								<div class="home_item">
-									<a href="pages=produits&idCategorie=1&nomCategorie=Salon"  ><i title="Salon" class="flaticon-sofa"></i></a>
+									<a href="?pages=produits&idCategorie=1&nomCategorie=Salon"  ><i title="Salon" class="flaticon-sofa"></i></a>
 								</div>
 								<div class="home_item">
-								<a href="pages=produits&idCategorie=2&nomCategorie=Chambre"  ><i title="Chambre" class="flaticon-bed"></i></a>
+								<a href="?pages=produits&idCategorie=2&nomCategorie=Chambre"  ><i title="Chambre" class="flaticon-bed"></i></a>
 								</div>
 								<div class="home_item">
-								<a href="pages=produits&idCategorie=5&nomCategorie=Bureau"  ><i title="Bureau" class="flaticon-computer"></i></a>
+								<a href="?pages=produits&idCategorie=5&nomCategorie=Bureau"  ><i title="Bureau" class="flaticon-computer"></i></a>
 								</div>
 								<div class="home_item">
-								<a href="pages=produits&idCategorie=6&nomCategorie=Salle de bain"  ><i title="Salle de bain" class="flaticon-mirror"></i></a>
+								<a href="?pages=produits&idCategorie=6&nomCategorie=Salle de bain"  ><i title="Salle de bain" class="flaticon-mirror"></i></a>
 								</div>
 								<div class="home_item">
-								<a href="pages=produits&idCategorie=4&nomCategorie=Dressing"  ><i title="Dressing" class="flaticon-closet"></i></a>
+								<a href="?pages=produits&idCategorie=4&nomCategorie=Dressing"  ><i title="Dressing" class="flaticon-closet"></i></a>
 								</div>
 								<div class="home_item">
-								<a href="pages=produits&idCategorie=3&nomCategorie=Cuisine"  ><i title="Cuisine" class="flaticon-kitchen"></i></a>
+								<a href="?pages=produits&idCategorie=3&nomCategorie=Cuisine"  ><i title="Cuisine" class="flaticon-kitchen"></i></a>
 								</div>
 							</div>
 						</div>
@@ -54,7 +54,7 @@
         			<div class="col-lg-4">
         				<div class="furniture_item">
         					<img class="img-fluid" src="assets/img/pieces/<?php echo $row['IDPIECES']; ?>.jpg" alt="">
-        					<a href="pages=fiches&idPiece=<?php echo $row['IDPIECES']; ?>"><h4><?php echo $row['NOMPIECES']; ?></h4></a>
+        					<a href="?pages=fiches&idPiece=<?php echo $row['IDPIECES']; ?>"><h4><?php echo $row['NOMPIECES']; ?></h4></a>
         					<p><?php echo $row['DESCRIPTIONS']; ?></p>
         				</div>
 					</div>

@@ -1,6 +1,5 @@
 <?php
 	$listes = getAllPieces();
-	var_dump($listes);
 ?>
 <section class="home_banner_area">
             <div class="banner_inner">

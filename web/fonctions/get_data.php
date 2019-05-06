@@ -29,7 +29,7 @@
                 die("Connection failed: " . $conn->connect_error);
             }
             $mdp = md5($mdp); 
-            $sql = "SELECT * FROM Utilisateur WHERE NOMUTILISATEUR='".$user."' and MDP='".$mdp."'";
+            $sql = "SELECT * FROM utilisateur WHERE NOMUTILISATEUR='".$user."' and MDP='".$mdp."'";
             $result = $conn->query($sql);
             $reponse = $result->num_rows;
             $conn->close();
@@ -43,7 +43,7 @@
         $response = null;
         $conn = getConnection();
         try{
-            $sql = " SELECT * FROM PIECES ";
+            $sql = " SELECT * FROM pieces ";
             $result = $conn->query($sql);
             $response = $result;
             $conn->close();
@@ -57,7 +57,7 @@
         $response = null;
         $conn = getConnection();
         try{
-            $sql = " SELECT * FROM CATEGORIEPIECES ";
+            $sql = " SELECT * FROM categoriepieces ";
             $result = $conn->query($sql);
             $response = $result;
             $conn->close();
@@ -71,7 +71,7 @@
         $response = null;
         $conn = getConnection();
         try{
-            $sql = " SELECT * FROM PIECES WHERE IDCATEGORIE=".$idcat;
+            $sql = " SELECT * FROM pieces WHERE IDCATEGORIE=".$idcat;
             $result = $conn->query($sql);
             $response = $result;
             $conn->close();

@@ -6,7 +6,7 @@
     $reponse = login($user,$mdp);
     if($reponse == 1){
         $_SESSION['user'] = $user;
-        header('Location: ../index.php'); 
+        header('Location: /'); 
     }else{
         session_destroy();
     }

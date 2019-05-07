@@ -85,7 +85,7 @@
         $response = null;
         $conn = getConnection();
         try{
-            $sql = " SELECT * FROM PIECES WHERE IDPIECES=".$id;
+            $sql = " SELECT * FROM pieces WHERE IDPIECES=".$id;
             $result = $conn->query($sql);
             $response = $result;
             $conn->close();
@@ -99,6 +99,37 @@
         $response = null;
         try{
             $response = md5($nom);
+        }catch(Exception $e){
+            throw $e->getMessage();
+        }
+        return $response;
+    }
+
+    function insertPieces($categorie,$nom,$desc,$notes,$nouveau,$matieres){
+
+        $response = 0;
+        $conn = getConnection();
+        try{
+            $stmt = $conn->prepare("INSERT INTO pieces (IDCATEGORIE, NOMPIECES , DESCRIPTIONS , NOTES , NOUVEAU , MATIERES) VALUES (?, ?, ? , ? , ? , ?)");
+            $mdp = md5($mdp);
+            $stmt->bind_param("issiis", $categorie, $nom, $desc , $notes , $nouveau , $matieres);
+            $stmt->execute();
+            $response = 1;
+            $stmt->close();
+            $conn->close();
+        }catch(Exception $e){
+            throw $e->getMessage();
+        }
+        return $response;
+    }
+
+    function deletePieces($id){
+        $response = null;
+        $conn = getConnection();
+        try{
+            $sql = "DELETE FROM pieces WHERE IDPIECES=".$id;
+            $result = $conn->query($sql);
+            $reponse = $result;
         }catch(Exception $e){
             throw $e->getMessage();
         }

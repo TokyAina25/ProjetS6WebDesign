@@ -37,7 +37,15 @@
 									<li><span>Website</span>:  colorlib.com</li>
 									<li><span>Completed</span>:  17 Aug 2018</li>
 								</ul>
+								<?php
+								if(isset($_SESSION['user'])){
+							?>
+							<strong>Liens vers le produit </strong><a href="www.amazon.fr"><h5>www.amazon/<?php echo $response['IDPIECES']; ?>.com</h5></a>
+							<?php
+							}
+							?>			
 							</div>
+							
 						</div>
 					</div>
         		</div>

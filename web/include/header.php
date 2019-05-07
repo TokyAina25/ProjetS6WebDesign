@@ -42,7 +42,7 @@
                                             if($listes->num_rows > 0) {
                                                 while($row = $listes->fetch_assoc()) {
                                         ?>
-											<li class="nav-item"><a class="nav-link" href="index.php?pages=produits&idCategorie=<?php echo $row['IDCATEGORIE']; ?>&nomCategorie=<?php echo $row['NOMCATEGORIE']; ?>"><?php echo $row['NOMCATEGORIE']; ?></a></li>
+											<li class="nav-item"><a class="nav-link" href="produits/<?php echo $row['IDCATEGORIE']; ?>/<?php echo $row['NOMCATEGORIE']; ?>"><?php echo $row['NOMCATEGORIE']; ?></a></li>
                                          <?php 
                                                 }
                                             } 

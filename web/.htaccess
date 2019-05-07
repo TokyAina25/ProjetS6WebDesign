@@ -1,8 +1,9 @@
 RewriteEngine On
-#RewriteBase /
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule (.*) index.php/$1
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)$ index.php?pages=$1&idCategorie=$2&nomCategorie=$3 [L]
 
-RewriteEngine On
-RewriteRule ^([^-]*)-([^-]*)-([^-]*)\.html$ /?pages=$1&idCategorie=$2&nomCategorie=$3 [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/([^/]+)$ index.php?pages=$1&idPiece=$2 [L]

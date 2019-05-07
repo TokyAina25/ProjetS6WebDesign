@@ -4,7 +4,7 @@
         			<div class="col-lg-5 col-sm-6">
         				<aside class="f_widget ab_widget">
         					<div class="f_title">
-        						<h3>About Me</h3>
+        						<h3>A propos de moi</h3>
         					</div>
         					<p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills,</p>
         					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -32,7 +32,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         			<div class="col-lg-2">
         				<aside class="f_widget social_widget">
         					<div class="f_title">
-        						<h3>Follow Me</h3>
+        						<h3>Suivez moi</h3>
         					</div>
         					<p>Let us be social</p>
         					<ul class="list">

@@ -9,6 +9,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" href="assets/img/favicon.png" type="image/png">
+        <base href="/WebS6/web/">
         <title>Design de maison</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="assets/css/bootstrap.css">

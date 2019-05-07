@@ -1,7 +1,7 @@
 <?php
     $idcat = $_GET['idCategorie'];
     $nompiece = $_GET['nomCategorie'];
-    $listes = getProduitsByCategorie($idcat);
+	$listes = getProduitsByCategorie($idcat);
 ?>
 
 
@@ -34,8 +34,15 @@
         			<div class="col-lg-4">
         				<div class="furniture_item">
         					<img class="img-fluid" src="assets/img/pieces/<?php echo $row['IDPIECES']; ?>.jpg" alt="">
-        					<a href="index.php?pages=fiches&idPiece=<?php echo $row['IDPIECES']; ?>"><h4><?php echo $row['NOMPIECES']; ?></h4></a>
-        					<p><?php echo $row['DESCRIPTIONS']; ?></p>
+        					<a href="fiches/<?php echo $row['IDPIECES']; ?>"><h4><?php echo $row['NOMPIECES']; ?></h4></a>
+							<p><?php echo $row['DESCRIPTIONS']; ?></p>
+							<?php
+								if(isset($_SESSION['user'])){
+							?>
+							<strong>Liens vers le produit </strong><a href="www.amazon.fr"><h5>www.amazon/<?php echo $row['IDPIECES']; ?>.com</h5></a>
+							<?php
+							}
+							?>			
         				</div>
 					</div>
                 <?php

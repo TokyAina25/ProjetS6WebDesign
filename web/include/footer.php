@@ -6,9 +6,9 @@
         					<div class="f_title">
         						<h3>A propos de moi</h3>
         					</div>
-        					<p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills,</p>
+        					<p>RAFIDIMANANA Toky Ny Aina Promo10B Numéros 25 ETU683</p>
         					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="assets/https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;</script> Tous droit réservé <i class="fa fa-heart-o" aria-hidden="true"></i> by
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
         				</aside>
         			</div>

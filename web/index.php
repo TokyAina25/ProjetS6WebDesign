@@ -1,6 +1,7 @@
 <?php
 	session_start();
     include ('fonctions/get_data.php');
+    
 ?>
 <!doctype html>
 <html lang="en">
@@ -9,8 +10,20 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" href="assets/img/favicon.png" type="image/png">
-        <base href="https://design-home-toky-v2.herokuapp.com/">
-        <title>Design de maison</title>
+        <base href="/WebS6/web/">
+        <?php
+            if(isset($_GET['titre']) && isset($_GET['pages'])){
+        ?>        
+            <title><?php echo $_GET['titre']; ?></title>
+            <meta name="<?php echo $_GET['titre']; ?>" content="<?php echo $_GET['pages']; ?>">
+        <?php
+            }else{
+        ?>
+             <title>Design de maison</title>
+             <meta name="accueil" content="Accueil Home design">
+        <?php        
+            }
+        ?>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="assets/css/bootstrap.css">
         <link rel="stylesheet" href="assets/vendors/linericon/style.css">
@@ -23,6 +36,23 @@
         <!-- main css -->
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
+        <style>
+            #home {
+                width: 148px; height: 40px;
+                background: url('assets/sprite-image/sprite.png') -10px -10px;
+            }
+            #home2 {
+                width: 148px; height: 40px;
+                left: 200px;
+                background: url('assets/sprite-image/sprite.png') -10px -70px;
+            }
+            #home3 {
+                width: 40px; height: 40px;
+                margin-left:400px;
+                left: 400px;
+                background: url('assets/sprite-image/sprite.png') -178px -10px;
+            }
+        </style>    
     </head>
     <body>
         

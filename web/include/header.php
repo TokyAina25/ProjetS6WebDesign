@@ -1,6 +1,7 @@
  <?php    
     $listes = getAllCategories();
  ?>
+
  <!--================Header Menu Area =================-->
         <header class="header_area">
            	<div class="top_menu">
@@ -34,7 +35,7 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 							<ul class="nav navbar-nav menu_nav ml-auto">
-								<li class="nav-item active"><a class="nav-link" href="/">Accueil</a></li> 
+								<li class="nav-item active"><a class="nav-link" href="home-design">Accueil</a></li> 
 								<li class="nav-item submenu dropdown">
 									<a href="assets/#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories</a>
 									<ul class="dropdown-menu">
@@ -42,7 +43,7 @@
                                             if($listes->num_rows > 0) {
                                                 while($row = $listes->fetch_assoc()) {
                                         ?>
-											<li class="nav-item"><a class="nav-link" href="produits/<?php echo $row['IDCATEGORIE']; ?>/<?php echo $row['NOMCATEGORIE']; ?>"><?php echo $row['NOMCATEGORIE']; ?></a></li>
+											<li class="nav-item"><a class="nav-link" href="produits/<?php echo $row['IDCATEGORIE']; ?>/<?php echo $row['NOMCATEGORIE']; ?>/Pieces-de-maison"><?php echo $row['NOMCATEGORIE']; ?></a></li>
                                          <?php 
                                                 }
                                             } 

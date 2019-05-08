@@ -45,7 +45,7 @@
                                     Modifier
                                 </button>
                                 </td>
-                                <td><a href="traitement/supprimer.php?id=<?php echo $row['IDPIECES']; ?>" class="btn btn-danger">Supprimer</a></td>
+                                <td><a href="traitementB/supprimer.php?id=<?php echo $row['IDPIECES']; ?>" class="btn btn-danger">Supprimer</a></td>
                             </tr>
                             <?php
                                         }
@@ -77,7 +77,7 @@
                                     <div class="card-header">
                                         <strong>Formulaire</strong>
                                     </div>
-                                    <form action="traitement/insertion.php" method="POST">
+                                    <form action="traitementB/insertion.php" method="POST">
                                     <div class="card-body card-block">
                                         <div class="form-group">
                                             <label for="company" class=" form-control-label">Categorie</label>

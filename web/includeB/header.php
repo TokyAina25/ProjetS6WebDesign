@@ -21,28 +21,28 @@
                                 <div class="account-wrap">
                                     <div class="account-item clearfix js-item-menu">
                                         <div class="image">
-                                            <img src="assets/images/icon/avatar-01.jpg" alt="John Doe" />
+                                            <img src="assetsB/images/icon/avatar-01.jpg" alt="John Doe" />
                                         </div>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="assets/#">Toky</a>
+                                            <a class="js-acc-btn" href="assetsB/#">Toky</a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
                                                 <div class="image">
-                                                    <a href="assets/#">
-                                                        <img src="assets/images/icon/avatar-01.jpg" alt="John Doe" />
+                                                    <a href="assetsB/#">
+                                                        <img src="assetsB/images/icon/avatar-01.jpg" alt="John Doe" />
                                                     </a>
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="assets/#">Toky</a>
+                                                        <a href="assetsB/#">Toky</a>
                                                     </h5>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__body">                                             
                                             </div>
                                             <div class="account-dropdown__footer">
-                                                <a href="traitement/deconnection.php">
+                                                <a href="traitementB/deconnection.php">
                                                     <i class="zmdi zmdi-power"></i>Deconnection</a>
                                             </div>
                                         </div>

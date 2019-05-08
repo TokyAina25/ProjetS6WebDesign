@@ -34,7 +34,7 @@
         			<div class="col-lg-4">
         				<div class="furniture_item">
         					<img class="img-fluid" src="assets/img/pieces/<?php echo $row['IDPIECES']; ?>.jpg" alt="">
-        					<a href="fiches/<?php echo $row['IDPIECES']; ?>"><h4><?php echo $row['NOMPIECES']; ?></h4></a>
+        					<a href="fiches/<?php echo $row['IDPIECES']; ?>/fiches-de-produit"><h4><?php echo $row['NOMPIECES']; ?></h4></a>
 							<p><?php echo $row['DESCRIPTIONS']; ?></p>
 							<?php
 								if(isset($_SESSION['user'])){

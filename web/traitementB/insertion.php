@@ -1,5 +1,5 @@
 <?php
-    include ('../../fonctions/get_data.php');
+    include ('../fonctions/get_data.php');
 
     $categorie = $_POST['categorie'];
     $nom = $_POST['nom'];
@@ -8,5 +8,5 @@
     $nouveau = $_POST['nouveau'];
     $matiere = $_POST['matiere'];
     insertPieces($categorie,$nom,$desc,$notes,$nouveau,$matiere);
-    header('Location: ../tables.php'); 
+    header('Location: ../tablesB.php'); 
 ?>

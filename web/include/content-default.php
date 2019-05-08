@@ -15,22 +15,22 @@
 						<div class="col-lg-4">
 							<div class="home_right_box">
 								<div class="home_item">
-									<a href="produits/1/Salon"  ><i title="Salon" class="flaticon-sofa"></i></a>
+									<a href="produits/1/Salon/Pieces-de-maison"  ><i title="Salon" class="flaticon-sofa"></i></a>
 								</div>
 								<div class="home_item">
-								<a href="produits/2/Chambre"  ><i title="Chambre" class="flaticon-bed"></i></a>
+								<a href="produits/2/Chambre/Pieces-de-maison"  ><i title="Chambre" class="flaticon-bed"></i></a>
 								</div>
 								<div class="home_item">
-								<a href="produits/5/Bureau"  ><i title="Bureau" class="flaticon-computer"></i></a>
+								<a href="produits/5/Bureau/Pieces-de-maison"  ><i title="Bureau" class="flaticon-computer"></i></a>
 								</div>
 								<div class="home_item">
-								<a href="produits/6/Salle de bain"  ><i title="Salle de bain" class="flaticon-mirror"></i></a>
+								<a href="produits/6/Salle de bain/Pieces-de-maison"  ><i title="Salle de bain" class="flaticon-mirror"></i></a>
 								</div>
 								<div class="home_item">
-								<a href="produits/4/Dressing"  ><i title="Dressing" class="flaticon-closet"></i></a>
+								<a href="produits/4/Dressing/Pieces-de-maison"  ><i title="Dressing" class="flaticon-closet"></i></a>
 								</div>
 								<div class="home_item">
-								<a href="produits/3/Cuisine"  ><i title="Cuisine" class="flaticon-kitchen"></i></a>
+								<a href="produits/3/Cuisine/Pieces-de-maison"  ><i title="Cuisine" class="flaticon-kitchen"></i></a>
 								</div>
 							</div>
 						</div>
@@ -54,7 +54,7 @@
         			<div class="col-lg-4">
         				<div class="furniture_item">
         					<img class="img-fluid" src="assets/img/pieces/<?php echo $row['IDPIECES']; ?>.jpg" alt="">
-        					<a href="fiches/<?php echo $row['IDPIECES']; ?>"><h4><?php echo $row['NOMPIECES']; ?></h4></a>
+        					<a href="fiches/<?php echo $row['IDPIECES']; ?>/fiches-de-produit"><h4><?php echo $row['NOMPIECES']; ?></h4></a>
 							<p><?php echo $row['DESCRIPTIONS']; ?></p>
 							<?php
 								if(isset($_SESSION['user'])){

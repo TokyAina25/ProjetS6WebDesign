@@ -1,12 +1,16 @@
 RewriteEngine On
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([^/]+)/([^/]+)/([^/]+)$ index.php?pages=$1&idCategorie=$2&nomCategorie=$3 [L]
+RewriteRule ^home-design$ index.php
+
+RewriteRule ^home-design-back$ indexB.php
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([^/]+)/([^/]+)$ index.php?pages=$1&idPiece=$2 [L]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)$ index.php?pages=$1&idCategorie=$2&nomCategorie=$3&titre=$4 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)$ index.php?pages=$1&idPiece=$2&titre=$3 [L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

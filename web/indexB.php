@@ -17,25 +17,25 @@
     <title>Login back office</title>
 
     <!-- Fontfaces CSS-->
-    <link href="assets/assetsB/back/css/font-face.css" rel="stylesheet" media="all">
-    <link href="assets/assetsB/back/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
-    <link href="assets/assetsB/back/vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
-    <link href="assets/assetsB/back/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="assets/back/assetsB/css/font-face.css" rel="stylesheet" media="all">
+    <link href="assets/back/assetsB/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="assets/back/assetsB/vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="assets/back/assetsB/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
 
     <!-- Bootstrap CSS-->
-    <link href="assets/assetsB/back/vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+    <link href="assets/back/assetsB/vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
 
     <!-- Vendor CSS-->
-    <link href="assets/assetsB/back/vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
-    <link href="assets/assetsB/back/vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
-    <link href="assets/assetsB/back/vendor/wow/animate.css" rel="stylesheet" media="all">
-    <link href="assets/assetsB/back/vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
-    <link href="assets/assetsB/back/vendor/slick/slick.css" rel="stylesheet" media="all">
-    <link href="assets/assetsB/back/vendor/select2/select2.min.css" rel="stylesheet" media="all">
-    <link href="assets/assetsB/back/vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
+    <link href="assets/back/assetsB/vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+    <link href="assets/back/assetsB/vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
+    <link href="assets/back/assetsB/vendor/wow/animate.css" rel="stylesheet" media="all">
+    <link href="assets/back/assetsB/vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+    <link href="assets/back/assetsB/vendor/slick/slick.css" rel="stylesheet" media="all">
+    <link href="assets/back/assetsB/vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="assets/back/assetsB/vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
 
     <!-- Main CSS-->
-    <link href="assets/assetsB/back/css/theme.css" rel="stylesheet" media="all">
+    <link href="assets/back/assetsB/css/theme.css" rel="stylesheet" media="all">
 
 </head>
 
@@ -46,8 +46,8 @@
                 <div class="login-wrap">
                     <div class="login-content">
                         <div class="login-logo">
-                            <a href="assets/assetsB/back/#">
-                                <img src="assets/assetsB/back/images/icon/logo.png" alt="CoolAdmin">
+                            <a href="assets/back/assetsB/#">
+                                <img src="assets/back/assetsB/images/icon/logo.png" alt="CoolAdmin">
                             </a>
                         </div>
                         <div class="login-form">
@@ -81,28 +81,28 @@
     </div>
 
     <!-- Jquery JS-->
-    <script src="assets/assetsB/back/vendor/jquery-3.2.1.min.js"></script>
+    <script src="assets/back/assetsB/vendor/jquery-3.2.1.min.js"></script>
     <!-- Bootstrap JS-->
-    <script src="assets/assetsB/back/vendor/bootstrap-4.1/popper.min.js"></script>
-    <script src="assets/assetsB/back/vendor/bootstrap-4.1/bootstrap.min.js"></script>
+    <script src="assets/back/assetsB/vendor/bootstrap-4.1/popper.min.js"></script>
+    <script src="assets/back/assetsB/vendor/bootstrap-4.1/bootstrap.min.js"></script>
     <!-- Vendor JS       -->
-    <script src="assets/assetsB/back/vendor/slick/slick.min.js">
+    <script src="assets/back/assetsB/vendor/slick/slick.min.js">
     </script>
-    <script src="assets/assetsB/back/vendor/wow/wow.min.js"></script>
-    <script src="assets/assetsB/back/vendor/animsition/animsition.min.js"></script>
-    <script src="assets/assetsB/back/vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
+    <script src="assets/back/assetsB/vendor/wow/wow.min.js"></script>
+    <script src="assets/back/assetsB/vendor/animsition/animsition.min.js"></script>
+    <script src="assets/back/assetsB/vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
     </script>
-    <script src="assets/assetsB/back/vendor/counter-up/jquery.waypoints.min.js"></script>
-    <script src="assets/assetsB/back/vendor/counter-up/jquery.counterup.min.js">
+    <script src="assets/back/assetsB/vendor/counter-up/jquery.waypoints.min.js"></script>
+    <script src="assets/back/assetsB/vendor/counter-up/jquery.counterup.min.js">
     </script>
-    <script src="assets/assetsB/back/vendor/circle-progress/circle-progress.min.js"></script>
-    <script src="assets/assetsB/back/vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
-    <script src="assets/assetsB/back/vendor/chartjs/Chart.bundle.min.js"></script>
-    <script src="assets/assetsB/back/vendor/select2/select2.min.js">
+    <script src="assets/back/assetsB/vendor/circle-progress/circle-progress.min.js"></script>
+    <script src="assets/back/assetsB/vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="assets/back/assetsB/vendor/chartjs/Chart.bundle.min.js"></script>
+    <script src="assets/back/assetsB/vendor/select2/select2.min.js">
     </script>
 
     <!-- Main JS-->
-    <script src="assets/assetsB/back/js/main.js"></script>
+    <script src="assets/back/assetsB/js/main.js"></script>
 
 </body>
 

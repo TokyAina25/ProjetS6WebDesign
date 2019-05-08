@@ -1,0 +1,12 @@
+1) Cloner la source de mon projet sur git
+
+2) Executer le script de la base de donnée dans un serveur mysql
+
+3) Copier le fichier source dans le repertoire des sites de votre serveur 
+
+4) Changer la base de l'url dans le fichier index.php et indexB.php par la base de l'url du site sur votre serveur
+
+5) Lancer le site!
+
+
+

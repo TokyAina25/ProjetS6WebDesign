@@ -10,7 +10,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" href="assets/img/favicon.png" type="image/png">
-        <base href="/WebS6/web/">
+        <base href="https://design-home-toky-v2.herokuapp.com/">
         <?php
             if(isset($_GET['titre']) && isset($_GET['pages'])){
         ?>        

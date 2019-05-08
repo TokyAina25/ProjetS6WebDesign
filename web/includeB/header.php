@@ -21,21 +21,21 @@
                                 <div class="account-wrap">
                                     <div class="account-item clearfix js-item-menu">
                                         <div class="image">
-                                            <img src="assetsB/images/icon/avatar-01.jpg" alt="John Doe" />
+                                            <img src="assets/back/assetsB/images/icon/avatar-01.jpg" alt="John Doe" />
                                         </div>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="assetsB/#">Toky</a>
+                                            <a class="js-acc-btn" href="assets/back/assetsB/#">Toky</a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
                                                 <div class="image">
-                                                    <a href="assetsB/#">
-                                                        <img src="assetsB/images/icon/avatar-01.jpg" alt="John Doe" />
+                                                    <a href="assets/back/assetsB/#">
+                                                        <img src="assets/back/assetsB/images/icon/avatar-01.jpg" alt="John Doe" />
                                                     </a>
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="assetsB/#">Toky</a>
+                                                        <a href="assets/back/assetsB/#">Toky</a>
                                                     </h5>
                                                 </div>
                                             </div>

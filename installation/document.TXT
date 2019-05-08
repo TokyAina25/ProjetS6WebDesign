@@ -1,6 +1,6 @@
 1) Cloner la source de mon projet sur git
 
-2) Executer le script de la base de donnée dans un serveur mysql
+2) Executer le script de la base de donnée dans un serveur mysql (si vous vouler utiliser la base en locale)
 
 3) Copier le fichier source dans le repertoire des sites de votre serveur 
 

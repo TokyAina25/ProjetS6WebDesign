@@ -11,7 +11,7 @@
     <meta name="description" content="au theme template">
     <meta name="author" content="Hau Nguyen">
     <meta name="keywords" content="au theme template">
-    <base href="https://design-home-toky-v2.herokuapp.com/">
+    <base href="https://design-home-toky-v2.herokuapp.com/home-design-back/">
 
     <!-- Title Page-->
     <title>Login back office</title>
